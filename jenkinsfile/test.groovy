@@ -1,4 +1,4 @@
-pipiline {
+pipeline {
     agent{node('master')}
     stages {
         stage('Clear workspace, fetch repository') {
